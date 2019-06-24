@@ -15,7 +15,7 @@ returns 8.  Make sure your function returns the result, rather than printing it.
 How many numbers will this loop print?
 
 ```js
-for (var i = 0; i > 10; ++i) {
+for (let i = 0; i > 10; ++i) {
   console.log(i);
 }
 ```
@@ -28,8 +28,8 @@ Be careful!
 What is the output of this code? Pay careful attention to the for loop!
 
 ```java
-var s = "CANTALOUPE";
-for (var i = s.length - 1; i >= 0; i -= 2) {
+var str = "CANTALOUPE";
+for (let i = str.length - 1; i >= 0; i -= 2) {
   console.log(s[i]);
 }
 ```
