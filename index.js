@@ -192,7 +192,7 @@ console.log(anagramChecker("hello", "goodbye"));
 // maxSliceSum([10,-20,10]); //returns 10
 // ```
 const maxSliceSum = arr => {
-    let max = Number.MIN_SAFE_INTEGER;
+    let max = 0;
     let sum = 0;
 
     const positive = x => x < 0 ? 0 : x;
@@ -203,6 +203,6 @@ const maxSliceSum = arr => {
     return max;
 }
 
-console.log(maxSliceSum([4, 5, 6, 7, -100, 1, 2, -100]));
+console.log(maxSliceSum([-100, 1, 5, 6, 7, 2, -100, 4]));
 
 // <!-- end @acxbank -->
